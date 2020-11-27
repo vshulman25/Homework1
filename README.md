@@ -1,1 +1,2 @@
-# Homework1
+# Homework1 - 
+    For this homework assignment, I refactor the code I was given to provide a cleaner, semantic code in return. I have provided my comments on each file and used GitHub to upload my work.

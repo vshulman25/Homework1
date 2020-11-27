@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* removed . from header, no longer needed */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +25,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* changed to header tags to nav + nav ul + nav ul li to correspond with html file */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,6 +52,7 @@ p {
     font-size: 16px;
 }
 
+/* after removing hero tag on html file amd replacing with figure, I changed the css property as well */
 figure {
     height: 800px;
     width: 100%;
@@ -59,38 +62,6 @@ figure {
     background-position: center;
     alt: "main image";
     
-}
-
-
-
-section {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-
-article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* combined for img tags to match - grouping in the same class */
-
-/* combined search engine, online rep and social media marketing to one - grouping in the same class */
-article img {
-    max-height: 200px;
-}
-
-/* combined h2 tags - grouping in the same class */
-
-article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .float-left {
@@ -103,6 +74,35 @@ article h2 {
     margin-left: 25px;
 }
 
+/* changed div content to to section to correspond with html */
+section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* article selector now represents what .search-engine-optimization , .online-reputation-management, .social-media-marketing */
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* combined for img tags to match - grouping with article  */
+article img {
+    max-height: 200px;
+}
+
+/* combined h2 tags - grouping in the same article selector */
+article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* aside now represents .benefits  - moved in css file to flow properly */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -113,28 +113,27 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* Combined benefit-lead, benefit brand 
-nefit-cost to one line with same - grouping in the same class */
 
+/* Combined benefit-lead, benefit brand benefit- cost to one line with using summary as the selector */
 summary {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* Following above steps, combined h3 items - grouping in the same class */
 
+/* Following above steps, combined h3 items - grouping in the same selector */
 summary h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* combined img tags - grouping in the same class */ 
-
+/* combined img tags - grouping with the same selector */ 
 summary img {
     display: block;
     margin: 10px auto;
-    max-width: 15px;
+    max-width: 150px;
  }
- 
+
+/* changed to footer tags + footer h2 to match HTML file */
 footer {
     padding: 30px;
     clear: both;
