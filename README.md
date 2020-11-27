@@ -1,2 +1,3 @@
 # Homework1 - 
-    For this homework assignment, I refactor the code I was given to provide a cleaner, semantic code in return. I have provided my comments on each file and used GitHub to upload my work.
+
+The task for this assignment was to refactor the code and provide the client with a cleaner, easier to read code without changing much of the website. I was also tasked with creating semantic code.
