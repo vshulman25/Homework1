@@ -21,7 +21,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+header h1 text {
     color: #d9dcd6;
 }
 
@@ -74,7 +74,7 @@ figure {
     margin-left: 25px;
 }
 
-/* changed div content to to section to correspond with html */
+/* changed div content to section to correspond with html */
 section {
     width: 75%;
     display: inline-block;
@@ -143,4 +143,9 @@ footer {
 
 footer h2 {
     font-size: 20px;
+}
+
+#heart::after {
+    
+        content:""
 }
