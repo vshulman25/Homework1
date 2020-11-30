@@ -10,12 +10,19 @@ The purpose of this assignment is to provide a codebase that follows accessibili
 ---
 ## Installation
 
-Use preferred code reader and browser - 
+Use preferred code reader and browser to view HTML, CSS & README files.
+
 
 ---
 ## Preview 
 
 ![Code Refactor Demo](./assets/images/01-html-css-git-homework-demo.png)
+
+---
+
+## Live Link
+
+(https://vshulman25.github.io/Homework1/)
 
 ---
 ## Credits
